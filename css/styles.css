@@ -2,12 +2,14 @@
   --corPrimaria-color: #18bc9c;
   --corSecundaria-color: #2c3e50;
   --corWhiteBlack-color: #white;
+  --textWhiteBlack-color: rgb(0, 0, 0);
 }
 
 .dark-mode:root {
   --corPrimaria-color: rgb(38, 39, 35);
   --corSecundaria-color: rgb(25, 26, 22);
-  --corWhiteBlack-color: rgb(47, 48, 44) !important ;
+  --corWhiteBlack-color: rgb(59, 59, 56);
+  --textWhiteBlack-color: rgb(255, 255, 255);
 }
 
 .foto-perfil {
@@ -25,9 +27,12 @@
 .corWhiteBlack {
   background-color: var(--corWhiteBlack-color);
 }
+.textWhiteBlack {
+  color: var(--textWhiteBlack-color);
+}
 p {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: black !important;
+  color: black;
 }
 .icones {
   padding-left: 5px;
