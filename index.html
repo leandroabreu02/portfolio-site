@@ -36,6 +36,15 @@
         <li class="nav-item">
           <a class="nav-link textoBranco" href="#contato">Contatos</a>
         </li>
+        <label class="nav-link textoBranco" for="switch">
+          <input type="checkbox" id="switch"> Modo escuro
+        </label>
+        <!-- <li class="nav-item-dark-mode">
+          <div class="nav-link textoBranco">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" onclick="darkMode()">
+            <label id="text" class="darkmodeLabel" for="darkmodeToggle">Modo Escuro</label>
+          </div>
+        </li> -->
       </ul>
     </div>
   </nav>
@@ -52,7 +61,7 @@
       <a href="https://www.instagram.com/leandroabreu13/" target="_blank"><i class="textoBranco icones fab fa-instagram"></i></a>
     </div>
   </section>
-  <div class="album py-5 bg-light" id="projetos">
+  <div class="album py-5 corWhiteBlack" id="projetos">
     <div class="container">
       <h2 class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
       <div class="row">
@@ -155,7 +164,7 @@
     </div>
   </section>
   <!-- Depoimentos -->
-  <section class="jumbotron text-center" style="background-color: white !important" id="depoimentos">
+  <section class="jumbotron text-center corWhiteBlack" id="depoimentos">
     <div class="container">
       <h2 class="jumbotron-heading text-center titulosVerdes">
         Depoimentos
@@ -183,5 +192,7 @@
   <footer class="text-center corSecundaria textoFooter">
     <p class="textoBranco">Copyright 2021 | LC Network</p>
   </footer>
+
+  <script src="js/scripts.js"></script>
 </body>
 </html>
