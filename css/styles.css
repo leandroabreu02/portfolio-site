@@ -77,3 +77,6 @@ html {
 .nav-item-dark-mode {
   margin-left: 20px;
 }
+#switch:hover {
+  cursor: pointer;
+}
