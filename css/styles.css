@@ -1,6 +1,7 @@
 :root {
   --corPrimaria-color: #18bc9c;
   --corSecundaria-color: #2c3e50;
+  --corTerciaria-color: #white;
   --corWhiteBlack-color: #white;
   --textWhiteBlack-color: rgb(0, 0, 0);
 }
@@ -8,6 +9,7 @@
 .dark-mode:root {
   --corPrimaria-color: rgb(38, 39, 35);
   --corSecundaria-color: rgb(25, 26, 22);
+  --corTerciaria-color: rgb(46, 48, 42);
   --corWhiteBlack-color: rgb(59, 59, 56);
   --textWhiteBlack-color: rgb(255, 255, 255);
 }
@@ -23,6 +25,9 @@
 }
 .corSecundaria {
   background-color:var(--corSecundaria-color);
+}
+.corTerciaria {
+  background-color: var(--corTerciaria-color);
 }
 .corWhiteBlack {
   background-color: var(--corWhiteBlack-color);
@@ -78,5 +83,9 @@ html {
   margin-left: 20px;
 }
 #switch:hover {
+  cursor: pointer;
+}
+
+.checkbox_pointer {
   cursor: pointer;
 }
